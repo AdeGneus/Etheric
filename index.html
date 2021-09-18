@@ -11,49 +11,246 @@
     <!-- container -->
     <div class="container">
       <!-- sidebar -->
-      <div class="sidebar">
+      <div id="sidebar">
         <header>
           <h1>Etheric</h1>
         </header>
         <nav>
           <ul>
-            <li>
-              <img src="icons/spiral.svg" alt="" />
-              <a href="">Overview</a>
+            <li class="nav">
+              <a href="">
+                <span class="icon"><img src="icons/spiral.svg" alt="" /></span>
+                <span>Overview</span>
+              </a>
             </li>
-            <li>
-              <img src="icons/briefcase.svg" alt="" />
-              <a href="">Capitalization</a>
+            <li class="nav">
+              <a href="">
+                <span class="icon"
+                  ><img src="icons/briefcase.svg" alt=""
+                /></span>
+                <span>Capitalization</span>
+              </a>
             </li>
-            <li>
-              <img
-                src="icons/archive-outline.svg"
-                alt=""
-                width="24"
-                height="24"
-              />
-              <a href="">Company</a>
-              <span>4</span>
+            <li class="nav">
+              <a href="">
+                <span class="icon"
+                  ><img
+                    src="icons/archive-outline.svg"
+                    alt=""
+                    width="24"
+                    height="24"
+                /></span>
+                <span>Company</span>
+                <span class="count">4</span>
+              </a>
             </li>
-            <li>
-              <img src="icons/zap.svg" alt="" />
-              <a href="">Cards</a>
+            <li class="nav">
+              <a href="">
+                <span class="icon"><img src="icons/zap.svg" alt="" /></span>
+                <span>Cards</span>
+              </a>
             </li>
-            <li>
-              <img src="icons/sync-outline.svg" alt="" width="24" height="24" />
-              <a href="">Exchange</a>
+            <li class="nav">
+              <a href="">
+                <span class="icon"
+                  ><img
+                    src="icons/sync-outline.svg"
+                    alt=""
+                    width="24"
+                    height="24"
+                /></span>
+                <span>Exchange</span>
+              </a>
             </li>
-
-            <hr />
-            <li class="footer">
-              <img src="icons/settings.svg" alt="" width="24" height="24" />
-              <a href="">Settings</a>
+            <li class="footer nav">
+              <a href="">
+                <span class="icon"
+                  ><img src="icons/settings.svg" alt="" width="24" height="24"
+                /></span>
+                <span>Settings</span>
+              </a>
             </li>
           </ul>
         </nav>
       </div>
       <!-- main -->
-      <div class="main"></div>
+      <div id="main">
+        <main>
+          <!-- main navigation -->
+          <nav>
+            <ul class="navbar">
+              <li class="funds">
+                <span class="fund"
+                  ><img src="icons/gift-outline.svg" alt="" width="24px"
+                /></span>
+                <div class="my-fund">
+                  <h2>&#36;1,000,000</h2>
+                  <p>Your funds</p>
+                </div>
+              </li>
+              <li class="funds">
+                <span class="fund"
+                  ><img src="icons/invert-mode-outline.svg" alt="" width="24px"
+                /></span>
+                <div class="borrowed-fund">
+                  <h2>&#36;2,546,000</h2>
+                  <p>Borrowed funds</p>
+                </div>
+              </li>
+              <li class="funds">
+                <span class="fund"
+                  ><img src="icons/globe-outline.svg" alt="" width="24px"
+                /></span>
+                <div class="percent">
+                  <h2>52.3%</h2>
+                  <p>Percent</p>
+                </div>
+              </li>
+              <li class="funds">
+                <span class="outline"
+                  ><img
+                    src="icons/ellipsis-horizontal-outline.svg"
+                    alt=""
+                    width="24px"
+                /></span>
+                <span
+                  ><img class="avatar" src="icons/avatar1.png" alt=""
+                /></span>
+              </li>
+            </ul>
+          </nav>
+          <!-- showcase -->
+
+          <!-- accounts and cards -->
+          <div class="showcase">
+            <div class="accounts">
+              <section class="acc-card">
+                <h2>Accounts and cards</h2>
+                <p>recently created</p>
+              </section>
+              <section class="card">
+                <span>
+                  <img src="icons/feather.svg" alt="" />
+                  <h2>Card Pro</h2>
+                </span>
+                <p class="small">
+                  From &#36;4,000. Find out the solution in 2 minutes. No% up to
+                  55 days. Online application ! Free shipping
+                </p>
+              </section>
+              <section class="payment">
+                <div>
+                  <h4>Monthly payment</h4>
+                  <div class="promo">
+                    <h2>&#36;5,500 <span class="small">&#36;3,000</span></h2>
+                  </div>
+                </div>
+                <div>
+                  <h4>Interest rate</h4>
+                  <div class="promo">
+                    <h2>5,5-12% <span class="small">16%</span></h2>
+                  </div>
+                </div>
+                <div></div>
+              </section>
+              <section class="withdrawal">
+                <div>
+                  <h4>Money withdrawal</h4>
+                  <div class="promo">
+                    <h2>&#36;15,000 <span class="small">&#36;4,000</span></h2>
+                  </div>
+                </div>
+                <div>
+                  <h4>Service</h4>
+                  <div class="promo">
+                    <h2>&#36;35.00 <span class="small">&#36;45.00</span></h2>
+                  </div>
+                </div>
+                <div></div>
+              </section>
+            </div>
+            <!-- transaction -->
+            <div class="transaction">
+              <header class="heading">
+                <h2>Transactions</h2>
+                <span class="date"
+                  >June 2021
+                  <span class="date-chevrons">
+                    <img
+                      src="icons/chevron-up.svg"
+                      alt=""
+                      width="12"
+                      height="6"
+                    />
+                    <img
+                      src="icons/chevron-down.svg"
+                      alt=""
+                      width="12"
+                      height="6"
+                    />
+                  </span>
+                </span>
+              </header>
+              <div class="github">
+                <div class="details">
+                  <span class="icon-gh">
+                    <img src="icons/logo-github.svg" width="24" />
+                  </span>
+                  <div>
+                    <h3>Github</h3>
+                    <p class="date">15 Sep 2021 at 4:10PM</p>
+                  </div>
+                </div>
+                <div>
+                  <h3>-&#36;2,340.00</h3>
+                </div>
+              </div>
+              <div class="apple">
+                <div class="details">
+                  <span class="icon-ap">
+                    <img src="icons/logo-ionitron.svg" width="24" />
+                  </span>
+                  <div>
+                    <h3>Apple arcade</h3>
+                    <p class="date">9 Sep 2021 at 1:00PM</p>
+                  </div>
+                </div>
+                <div>
+                  <h3>-&#36;940.00</h3>
+                </div>
+              </div>
+              <div class="mailchimp">
+                <div class="details">
+                  <span class="icon-mc">
+                    <img src="icons/logo-mailchimp.svg" width="24" />
+                  </span>
+                  <div>
+                    <h3>Mailchimp support</h3>
+                    <p class="date">7 Sep 2021 at 3:40PM</p>
+                  </div>
+                </div>
+                <div>
+                  <h3>-&#36;2,340.00</h3>
+                </div>
+              </div>
+              <div class="reddit">
+                <div class="details">
+                  <span class="icon-rd">
+                    <img src="icons/logo-reddit.svg" width="24" />
+                  </span>
+                  <div>
+                    <h3>Reddit</h3>
+                    <p class="date">6 Sep 2021 at 11:00PM</p>
+                  </div>
+                </div>
+                <div>
+                  <h3>-&#36;7,460.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
     </div>
   </body>
 </html>
